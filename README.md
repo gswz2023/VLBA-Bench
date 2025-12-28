@@ -63,6 +63,7 @@ pip install -r requirements.txt
 ```
 ## 📂 Data Preparation
 Please download the datasets and organize them as follows:
+```text
 data/
 ├── HMDB51/
 │   ├── videos/          # Raw video files
@@ -73,7 +74,7 @@ data/
 └── MSRVTT/
     ├── videos/
     └── annotations/
-
+```
 ## 🚀 Usage
 We provide a unified entry point main_attack.py to run evaluations across different paradigms.
 
