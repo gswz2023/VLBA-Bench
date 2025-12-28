@@ -15,7 +15,12 @@
 >
 > This work systematically reveals the modality differences and time-dependent characteristics of backdoor attacks in video-language models.
 
+> This work systematically reveals the modality differences and time-dependent characteristics of backdoor attacks in video-language models.
 
+<div align="center">
+  <img src="assets/n0-1.png" width="100%" alt="VLBA-Bench Framework Overview"/>
+</div>
+<br>
 
 ---
 
@@ -35,7 +40,11 @@
     4.  **Textual Attacks:** Evaluating high-efficiency text injections.
 * **Extensive Evaluation:** Covers 50+ configurations across **MSVD**, **MSRVTT**, and **HMDB51** datasets.
 * **Modality Analysis:** Provides deep insights into the trade-offs between *Stealthiness*, *Utility*, and *Attack Success Rate* across video and text modalities.
-
+<div align="center">
+  <img src="assets/n1-1.png" width="90%" alt="Temporal-Distributed Attack Pipeline"/>
+  <br>
+  <em>Figure: The pipeline of Temporal-Distributed Backdoor Attack, illustrating frequency domain modification and MA-LMM injection.</em>
+</div>
 ---
 
 ## 🛠️ Installation
@@ -106,7 +115,10 @@ python main_attack.py \
   --trigger_type global_perturb \
   --budget 16
 ```
+<div align="center"> <img src="assets/cleanlabelattack-demo-1.png" width="85%" alt="Clean Label Trigger Visualization"/>
 
+
+<em>Visualization of Clean-Label triggers: Comparison between Local Triggers and Global Perturbation Triggers (max=4 vs max=16).</em> </div>
 ## 📊 Benchmark Results
 
 ### Modality Comparison: Text vs. Video
